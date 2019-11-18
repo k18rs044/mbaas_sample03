@@ -84,7 +84,7 @@
       .then(function(results){
         $("#display").removeClass();
         $("#display").addClass("bg-success");
-        $("#display").html("results.count");
+        $("#display").html(results.count);
       })
       .catch(function(error){
         $("#display").removeClass();
